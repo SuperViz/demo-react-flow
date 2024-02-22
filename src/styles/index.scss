@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	padding: 6px 15px;
+	background-color: #e9e5ef;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 38px;
+
+	#whoisonline {
+		margin-right: 53px;
+	}
+}
+
+#reactflow {
+	height: calc(100vh - 38px);
+	width: 100%;
+}
